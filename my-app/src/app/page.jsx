@@ -11,7 +11,7 @@ export default function Home() {
       <header id="header">
         <nav className="navbar navbar-expand-md bg-white">
           <div className="container">
-            <img src="favicon.svg" alt="Logo" width="30" height="24" className="d-inline-block align-text-top" />
+            <img src="NavIcon.svg" alt="Logo" width="30" height="24" className="d-inline-block align-text-top" />
             Psychologists
 
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -20,7 +20,7 @@ export default function Home() {
 
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ms-auto gap-md-1 align-items-center">
-                
+
                 <li className="nav-item">
                   <a href="#" className="nav-link text-dark">Para los psicólogos</a>
                 </li>
@@ -48,7 +48,7 @@ export default function Home() {
                   </a>
                   <ul className="dropdown-menu">
                     {arr_flags.map((flag, index) => (
-                      <li key={index}><a className="dropdown-item" href="#"><img src={flag.flag} alt="flag" className="me-2" width="28" height="20"/></a></li>
+                      <li key={index}><a className="dropdown-item" href="#"><img src={flag.flag} alt="flag" className="me-2" width="28" height="20" /></a></li>
                     ))}
                   </ul>
                 </li>
@@ -58,9 +58,32 @@ export default function Home() {
           </div>
         </nav>
       </header>
-      {/* <div className="d-flex justify-content-center">
-        <hr className="w-75 border-secondary m-0" />
-      </div> */}
+
+
+      <div className="container text-center mt-5">
+        <div className="row justify-content-evenly">
+          <div className="col-lg-6 text-start">
+            <h1 style={{ fontSize: "3rem", textAlign: "justify" }}>Elige un psicólogo con el que te sientas cómodo siendo tú mismo</h1>
+            <p style={{ fontSize: "1.2rem", textAlign: "justify" }}>En línea o presencial en tu ciudad. Sin registro. Las recomendaciones de colegas y clientes son tu apoyo en la elección.</p>
+            <button className="btn btn-success d-lg-block d-none fw-semibold px-5 py-3">Encontrar un psicólogo</button>
+          </div>
+
+          <div className="col-lg-6 text-start order-last mt-3 d-lg-none d-block">
+            <button className="btn btn-success w-100 p-3 fw-semibold">Encontrar un psicólogo</button>
+          </div>
+
+          <div className="col-lg-6">
+            <img src="images/HeroSection.svg" alt="Hero Section Image" className="img-fluid" width={800} height={800} style={{position: "relative"}}/>
+            <div className="border border-1 rounded-3 border-dark d-flex bg-white" style={{position: "absolute", top: "74%", left: "52%", width: "20%"}}>
+              <img src="heart.svg" alt="Logo" width="30" height="24" className="d-inline-block align-text-top mt-2 ms-3" />
+              <p className="px-lg-2 text-start mt-1">
+                Desde 2016 conectamos a quienes buscan ayuda con expertos
+              </p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
     </>
   );
 }
