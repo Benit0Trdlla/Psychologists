@@ -14,9 +14,15 @@
 
 .div-overlay {
     position: relative;
+    background-color: purple !important;
     top: -26%;
     left: 0%;
     width: calc(var(--ancho-pantalla) * 0.29);
+}
+
+.card-bg-width {
+    background-color: rgb(199, 237, 208);
+    width: 360px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -25,7 +31,13 @@
     }
 
     .div-overlay {
+        background-color: red !important;
         top: 0%;
+        width: calc(var(--ancho-pantalla) * 0.24);
+    }
+
+    .card-bg-width {
+        background-color: rgb(199, 237, 208);
         width: calc(var(--ancho-pantalla) * 0.24);
     }
 }
@@ -35,14 +47,22 @@
         --ancho-pantalla: 992px;
     }
 
+
+    .card-bg-width {
+        background-color: rgb(199, 237, 208);
+        width: calc(var(--ancho-pantalla) * 0.22);
+    }
+
     .div-overlay {
         top: -14%;
+        background-color: green !important;
         width: calc(var(--ancho-pantalla) * 0.54);
     }
 
     .hero-title {
         text-align: start;
     }
+
     .hero-subtitle {
         text-align: start;
     }
@@ -53,14 +73,22 @@
         --ancho-pantalla: 768px;
     }
 
+    .card-bg-width {
+        background-color: rgb(199, 237, 208);
+        width: calc(var(--ancho-pantalla) * 0.21);
+        height: calc(var(--ancho-pantalla) * 0.21);
+    }
+
     .div-overlay {
         top: -25%;
+        background-color: blue !important;
         width: calc(var(--ancho-pantalla) * 0.5);
     }
 
     .hero-title {
         text-align: start;
     }
+
     .hero-subtitle {
         text-align: start;
     }
@@ -71,8 +99,15 @@
         --ancho-pantalla: 576px;
     }
 
+    .card-bg-width {
+        background-color: rgb(199, 237, 208);
+        width: 96%;
+        margin-left: 11px;
+    }
+
     .div-overlay {
         top: -6%;
+        background-color: yellow !important;
         width: calc(var(--ancho-pantalla) * 0.5);
     }
 

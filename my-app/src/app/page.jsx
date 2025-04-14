@@ -9,6 +9,7 @@ export default function Home() {
   ]
   return (
     <>
+      {/* NAVBAR */}
       <header id="header">
         <nav className="navbar navbar-expand-md bg-white">
           <div className="container">
@@ -60,7 +61,7 @@ export default function Home() {
         </nav>
       </header>
 
-
+      {/* HERO SECTION */}
       <div className="container text-center mt-5">
         <div className="row justify-content-evenly">
           <div className="col-lg-6 text-start">
@@ -74,7 +75,7 @@ export default function Home() {
           </div>
 
           <div className="col-lg-6">
-            <img src="images/HeroSection.svg" alt="Hero Section Image" className="img-fluid" width={800} height={800}/>
+            <img src="images/HeroSection.svg" alt="Hero Section Image" className="img-fluid" width={800} height={800} />
             <div className="div-overlay border border-1 rounded-3 border-dark d-flex bg-white">
               <img src="heart.svg" alt="Logo" width="30" height="24" className="d-inline-block align-text-top mt-2 ms-3" />
               <p className="ms-1 ms-lg-0 px-lg-2 text-start mt-1">
@@ -82,7 +83,45 @@ export default function Home() {
               </p>
             </div>
           </div>
-          
+        </div>
+      </div>
+
+      {/* CARDS STATS */}
+      <div className="container text-center mt-3 mt-lg-4 mt-xl-0 mb-5 mb-lg-0">
+        <div className="row align-items-center d-flex justify-content-between gap-lg-0 gap-1">
+          <div className="col-lg-4  rounded-3 p-0 card-bg-width">
+            <p className="m-0 fs-3 fw-semibold mt-3">27.000+</p>
+            <p style={{ lineHeight: "1.5rem" }} className="fw-normal fs-5">clientes encontraron a su <br /> psicólogo</p>
+          </div>
+          <div className="col-lg-4  rounded-3 p-0 card-bg-width">
+            <p className="m-0 fs-3 fw-semibold mt-3">450</p>
+            <p style={{ lineHeight: "1.5rem" }} className="fw-normal fs-5">Especialistas con educación y experiencia verificadas</p>
+          </div>
+          <div className="col-lg-4  rounded-3 p-0 card-bg-width">
+            <p className="m-0 fs-3 fw-semibold mt-3">8 años</p>
+            <p style={{ lineHeight: "1.5rem" }} className="fw-normal fs-5">de experiencia promedio <br /> de nuestros psicólogos</p>
+          </div>
+        </div>
+      </div>
+
+      {/* CARDS PSICOLOGOS */}
+      <div className="container mt-lg-4 p-lg-0">
+        <div>
+          <h1>
+            Nuestros psicólogos y psicoterapeutas
+          </h1>
+          <div className="d-flex justify-content-between">
+            <div>
+              <p className="fs-6 fw-normal">
+                Comunidad de recomendados. Aquí encontrarás a un especialista al que querrás acudir sin dudas.
+              </p>
+            </div>
+            <div>
+              <p className="text-success fw-semibold cursor-pointer">
+                TODOS LOS ESPECIALISTAS
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </>
