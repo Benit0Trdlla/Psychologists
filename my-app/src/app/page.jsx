@@ -106,20 +106,68 @@ export default function Home() {
 
       {/* CARDS PSICOLOGOS */}
       <div className="container mt-lg-4 p-lg-0">
-        <div>
-          <h1>
-            Nuestros psicólogos y psicoterapeutas
-          </h1>
-          <div className="d-flex justify-content-between">
-            <div>
-              <p className="fs-6 fw-normal">
-                Comunidad de recomendados. Aquí encontrarás a un especialista al que querrás acudir sin dudas.
+        <h1>
+          Nuestros psicólogos y psicoterapeutas
+        </h1>
+        <div className="d-flex justify-content-between">
+          <div>
+            <p className="fs-6 fw-normal">
+              Comunidad de recomendados. Aquí encontrarás a un especialista al que querrás acudir sin dudas.
+            </p>
+          </div>
+          <div className="d-lg-block d-none">
+            <p className="text-success fw-semibold cursor-pointer">
+              TODOS LOS ESPECIALISTAS
+              <svg height="22" viewBox="0 0 32 32" width="22" className="mb-1" xmlns="http://www.w3.org/2000/svg">
+                <path clipRule="evenodd" d="M20.9405 15.0576C21.1905 15.3076 21.3309 15.6467 21.3309 16.0002C21.3309 16.3538 21.1905 16.6929 20.9405 16.9429L13.3979 24.4856C13.2749 24.6129 13.1277 24.7145 12.9651 24.7844C12.8024 24.8543 12.6274 24.891 12.4504 24.8926C12.2733 24.8941 12.0978 24.8604 11.9339 24.7933C11.7701 24.7263 11.6212 24.6273 11.496 24.5021C11.3708 24.3769 11.2718 24.228 11.2048 24.0642C11.1377 23.9003 11.104 23.7247 11.1055 23.5477C11.1071 23.3707 11.1438 23.1957 11.2137 23.033C11.2836 22.8704 11.3852 22.7232 11.5125 22.6002L18.1125 16.0002L11.5125 9.40024C11.2696 9.14877 11.1352 8.81197 11.1383 8.46237C11.1413 8.11278 11.2816 7.77836 11.5288 7.53115C11.776 7.28394 12.1104 7.14371 12.46 7.14068C12.8096 7.13764 13.1464 7.27203 13.3979 7.51491L20.9405 15.0576Z" fillRule="evenodd"></path>
+              </svg>
+            </p>
+          </div>
+        </div>
+
+        {/* CARDS */}
+        <div className="container p-0">
+          <div className="border border-secondary-subtle rounded-3" style={{ width: "363.33px" }}>
+            {/* HEADER */}
+            <div style={{ backgroundColor: "rgb(248, 252, 244)" }} className="header p-3 rounded-3 d-flex align-items-center justify-content-center gap-5">
+              <img style={{ width: "130px", height: "130px" }} className="img-fluid card-bg-width rounded-3" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="" />
+              <div>
+                <div>
+                  <h5>Milton Peralta</h5>
+                  <p>
+                    Psicoterapia Integrativa
+                  </p>
+                </div>
+                <div className="mt-3">
+                  <p className="p-0 mt-3 mb-0">EXAMPLE 2</p>
+                </div>
+              </div>
+            </div>
+            {/* ETIQUETAS */}
+            <div style={{ overflowX: "auto", whiteSpace: "nowrap" }}>
+              <div style={{ backgroundColor: "rgba(255,244,244,255)" }} className="ms-3 mt-3 mb-1 rounded-5 d-inline-block px-3 py-1 text-center">
+                <p className="p-0 m-0">Dificultades en relaciones</p>
+              </div>
+              <div className="ms-3 border border-danger mt-3 mb-1 rounded-5 d-inline-block px-3 py-1 text-center">
+                <p className="p-0 m-0">Dificultades en relaciones</p>
+              </div>
+              <div className="ms-3 border border-danger mt-3 mb-1 rounded-5 d-inline-block px-3 py-1 text-center">
+                <p className="p-0 m-0">Dificultades en relaciones</p>
+              </div>
+            </div>
+            {/* TARIFAS */}
+            <div className="px-3 py-3">
+              <p className="fs-5 fw-normal">
+                Terapia individual : <span className="fw-bold fs-6">$20.00</span>
+              </p>
+              <p className="fs-5 fw-normal">
+                Terapia de pareja: <span className="fw-bold fs-6">$20.00</span>
               </p>
             </div>
-            <div>
-              <p className="text-success fw-semibold cursor-pointer">
-                TODOS LOS ESPECIALISTAS
-              </p>
+            {/* INFORMACION */}
+            <div className="bg-secondary-subtle">
+              <div></div>
+              <div></div>
             </div>
           </div>
         </div>
