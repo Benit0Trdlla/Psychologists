@@ -137,7 +137,7 @@ export default function Home() {
         </div>
 
         {/* CARDS */}
-        <div className="mx-0 container row gap-2 d-none d-xl-flex">
+        <div className="mb-5 mx-0 container row gap-2 d-none d-xl-flex">
           <div className="p-0 border border-secondary-subtle rounded-3 m-0 card-container-width">
             {/* HEADER */}
             <div className="header p-3 rounded-3 d-flex align-items-center justify-content-center gap-5 card-bg-color">
@@ -685,8 +685,78 @@ export default function Home() {
               </div>
             </div>
           </SwiperSlide>
+          <div className="swiper-pagination myClass-pagination"></div>
         </Swiper>
+
+        <div className="d-lg-none d-block text-center">
+          <p className="text-success fw-semibold fs-2">
+            TODOS LOS ESPECIALISTAS
+            <svg height="30" viewBox="0 0 32 32" width="30" className="mb-2" xmlns="http://www.w3.org/2000/svg">
+              <path clipRule="evenodd" d="M20.9405 15.0576C21.1905 15.3076 21.3309 15.6467 21.3309 16.0002C21.3309 16.3538 21.1905 16.6929 20.9405 16.9429L13.3979 24.4856C13.2749 24.6129 13.1277 24.7145 12.9651 24.7844C12.8024 24.8543 12.6274 24.891 12.4504 24.8926C12.2733 24.8941 12.0978 24.8604 11.9339 24.7933C11.7701 24.7263 11.6212 24.6273 11.496 24.5021C11.3708 24.3769 11.2718 24.228 11.2048 24.0642C11.1377 23.9003 11.104 23.7247 11.1055 23.5477C11.1071 23.3707 11.1438 23.1957 11.2137 23.033C11.2836 22.8704 11.3852 22.7232 11.5125 22.6002L18.1125 16.0002L11.5125 9.40024C11.2696 9.14877 11.1352 8.81197 11.1383 8.46237C11.1413 8.11278 11.2816 7.77836 11.5288 7.53115C11.776 7.28394 12.1104 7.14371 12.46 7.14068C12.8096 7.13764 13.1464 7.27203 13.3979 7.51491L20.9405 15.0576Z" fillRule="evenodd"></path>
+            </svg>
+          </p>
+        </div>
       </div>
+
+      {/* ASESORES SECTION  */}
+      <section className="bg-secondary-subtle mb-0 text-center py-5">
+        <h1 className="mb-0">En qué pueden ayudarle nuestros asesores</h1>
+
+        <div className="container text-center mt-5">
+          <div className="row">
+            <div className="col">
+              <img src="images/Asesores/1.svg" alt="" />
+              <h4 className="fw-bold">Dificultades en las relaciones</h4>
+              <p className="fw-normal fs-semibold">
+                Te cuesta entenderte con tu pareja, familiares, hijos, compañeros. Te sientes solo.
+              </p>
+            </div>
+            <div className="col">
+              <img src="images/Asesores/2.svg" alt="" />
+              <h4 className="fw-bold">Períodos difíciles en la vida</h4>
+              <p className="fw-normal fs-semibold">
+                Estás atravesando una crisis personal debido a un divorcio, pérdida de empleo, cambio de residencia, etc. Buscas un propósito en la vida.
+              </p>
+            </div>
+            <div className="col">
+              <img src="images/Asesores/3.svg" alt="" />
+              <h4 className="fw-bold">Depresión y apatía</h4>
+              <p className="fw-normal fs-semibold">
+                Sientes tristeza constante, pérdida de interés por la vida. No disfrutas lo que solías disfrutar.
+              </p>
+            </div>
+          </div>
+
+          <div className="row mt-2">
+            <div className="col">
+              <img src="images/Asesores/4.svg" alt="" />
+              <h4 className="fw-bold">Miedos, fobias, ansiedad
+              </h4>
+              <p className="fw-normal fs-semibold">
+                Te persigue una preocupación constante que limita tu vida. Tienes miedo de perder a alguien, tu trabajo, salud o a ti mismo.
+              </p>
+            </div>
+            <div className="col">
+              <img src="images/Asesores/5.svg" alt="" />
+              <h4 className="fw-bold">Relaciones contigo mismo</h4>
+              <p className="fw-normal fs-semibold">
+                No estás seguro de tus habilidades, acciones, decisiones o apariencia. Quieres aprender a comprenderte y aceptarte, recuperar la sensibilidad corporal.
+              </p>
+            </div>
+            <div className="col">
+              <img src="images/Asesores/6.svg" alt="" />
+              <h4 className="fw-bold">Duelo, pérdidas, separaciones</h4>
+              <p className="fw-normal fs-semibold">
+                Estás atravesando una separación, la pérdida de un ser querido u otros cambios dolorosos en la vida. Las consecuencias de un trauma psicológico te impiden vivir plenamente.
+              </p>
+            </div>
+          </div>
+
+          <p className="mb-0 p-0 mt-3 fw-medium">Esto es solo una parte. Cada solicitud es única.</p>
+          <p className="fw-semibold">Por eso, nuestros especialistas ofrecen un enfoque individual que resuena con tu historia y necesidades.</p>
+          <button className="btn btn-success p-3 mt-2 fw-semibold">Reservar una cita con un psicólogo</button>
+        </div>
+      </section>
     </>
   );
 }

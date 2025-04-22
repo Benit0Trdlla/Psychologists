@@ -24,7 +24,11 @@
     background-color: rgba(255, 244, 244, 255);
 }
 
-
+.myClass-pagination {
+    position: relative !important;
+    z-index: 1 !important;
+    margin-top: 34px;
+}
 
 @media screen and (max-width: 1200px) {
     :root {
@@ -34,7 +38,6 @@
     .card-container-width{
         width: 100%;
     }
-
 }
 
 @media screen and (max-width: 992px) {
