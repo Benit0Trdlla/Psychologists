@@ -1,0 +1,46 @@
+.card-bg-width {
+    background-color: rgb(199, 237, 208);
+    width: 360px;
+}
+
+@media screen and (max-width: 1200px) {
+    :root {
+        --ancho-pantalla: 1200px;
+    }
+    
+    .card-bg-width {
+        background-color: rgb(199, 237, 208);
+        width: calc(var(--ancho-pantalla) * 0.24);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    :root {
+        --ancho-pantalla: 992px;
+    }
+
+    .card-bg-width {
+        background-color: rgb(199, 237, 208);
+        width: calc(var(--ancho-pantalla) * 0.22);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    :root {
+        --ancho-pantalla: 768px;
+    }
+
+    .card-bg-width {
+        background-color: rgb(199, 237, 208);
+        width: calc(var(--ancho-pantalla) * 0.21);
+        height: calc(var(--ancho-pantalla) * 0.21);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .card-bg-width {
+        background-color: rgb(199, 237, 208);
+        width: 96%;
+        margin-left: 11px;
+    }
+}
