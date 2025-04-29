@@ -1,3 +1,9 @@
+.container-cards{
+    height: 454.58px;
+    width: 360px;
+    padding: 20px;
+}
+
 .bg-div-cards {
     background-color: rgb(199, 237, 208);
 }

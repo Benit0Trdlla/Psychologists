@@ -4,6 +4,7 @@ import HeroSection from "./components/Home/Hero/HeroSection"
 import CardsStats from "./components/Home/CardsStats/CardsStats"
 import AdvisorsSection from "./components/Home/AdvisorsSection"
 import TypesTherapies from "./components/Home/TypesTherapies/TypesTherapies"
+import PsychotherapyProcess from "./components/Home/PsychotherapyProcess/PsychotherapyProcess"
 
 export default function Home() {
 
@@ -15,6 +16,8 @@ export default function Home() {
       <CardsPsychologists/>
       <AdvisorsSection/>
       <TypesTherapies/>
+      <PsychotherapyProcess/>
+
     </>
   );
 }
