@@ -41,12 +41,10 @@
         --ancho-pantalla: 992px;
     }
 
-
-
     .div-overlay {
         top: -14%;
         background-color: green !important;
-        width: calc(var(--ancho-pantalla) * 0.54);
+        width: calc(var(--ancho-pantalla) * 0.48);
     }
 
     .hero-title {
