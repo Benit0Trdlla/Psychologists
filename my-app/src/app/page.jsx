@@ -19,6 +19,13 @@ export default function Home() {
       <TypesTherapies />
       <PsychotherapyProcess />
       <RequestAppointment />
+      <section className="container">
+        <div className="d-flex align-items-center gap-3 mb-3 mt-5">
+          <h1 className="mb-0">Obtener ayuda es fácil</h1>
+          <img src="images/pasos-terapia.svg" alt="" className="d-flex"/>
+        </div>
+        <p className="text-success fs-3 fw-semibold">Así es como funciona:</p>
+      </section>
     </>
   );
 }
