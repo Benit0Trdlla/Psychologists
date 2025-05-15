@@ -15,6 +15,10 @@
     margin-top: 12px;
 }
 
+.width-div-reserva {
+    width: 50% !important;
+}
+
 @media screen and (max-width: 1200px) {
     :root {
         --ancho-pantalla: 1200px;
@@ -47,6 +51,10 @@
         height: 190px;
     }
 
+    .width-div-reserva {
+        width: 512px !important;
+    }
+
     .p-position-text {
         padding-left: 0px;
         margin-top: 12px;
@@ -67,5 +75,9 @@
     .div-steps-dimensions {
         width: 311px;
         height: 253px;
+    }
+
+    .width-div-reserva {
+        width: 311px !important;
     }
 }

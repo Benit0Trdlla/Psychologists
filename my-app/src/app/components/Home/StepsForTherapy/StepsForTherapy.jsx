@@ -61,6 +61,11 @@ export default function StepsForTherapy() {
                         </p>
                     </div>
                 </div>
+
+                <div className="border-divs width-div-reserva mx-auto d-flex flex-column p-4 align-items-center mt-4">
+                    <p className="fw-semibold fs-4 text-center">Comienza a llevar la calidad de tu vida <br /> a un nuevo nivel 💚</p>
+                    <button className="btn btn-success fw-semibold p-3">Reservar una cita con un psicólogo</button>
+                </div>
             </section>
         </>
     )
