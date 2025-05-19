@@ -2,7 +2,7 @@ import "./RequestAppointment.css"
 export default function RequestAppointment() {
     return (
         <>
-            <section className="bg-secondary-subtle p-5">
+            <section className="bg-section p-5">
                 <div className="div-dimensions border border-dark rounded mx-auto p-lg-5 p-3 d-flex flex-column flex-md-row justify-content-between align-items-center">
                     <div>
                         <p className="fw-semibold fs-5">El camino hacia la armonía interior puede ser difícil, pero con el apoyo de nuestros psicólogos, nunca estará solo. 🤗</p>
