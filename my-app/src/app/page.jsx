@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <>
-      <Navbar />
+      <Navbar img="/NavIcon.svg"/>
       <HeroSection />
       <CardsStats />
       <CardsPsychologists />
